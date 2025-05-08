@@ -94,3 +94,28 @@ module.exports = {
 ## eslint
 
 用于代码质量检查和风格统一。
+
+1. 安装
+   `npm i eslint@8.56 eslint-webpack-plugin@4.2 -D`
+
+2. 在 webpack 配置文件中添加 plugin
+   ` plugins: [new ESLintWebpackPlugin()]`
+
+3. 新建 `.eslintrc.js` 配置文件
+   ```javascript
+   module.exports = {
+     env: {
+       browser: true,
+       es2021: true,
+     },
+     // pnpm i eslint-config-standard -D
+     extends: ["standard"],
+     plugins: [],
+     parserOptions: {
+       sourceType: "module",
+     },
+     rules: {
+       "no-console": 2,
+     },
+   };
+   ```

@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/a */ \"./src/js/a.js\");\n\nconsole.log((0,_js_a__WEBPACK_IMPORTED_MODULE_0__.fn)(1, 2));\n\n//# sourceURL=webpack://2-basic-configuration/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/a */ \"./src/js/a.js\");\n // [eslint] error Parsing error: The keyword 'import' is reserved\n\nconsole.log((0,_js_a__WEBPACK_IMPORTED_MODULE_0__.fn)(1, 2));\n\n//# sourceURL=webpack://2-basic-configuration/./src/index.js?");
 
 /***/ }),
 
